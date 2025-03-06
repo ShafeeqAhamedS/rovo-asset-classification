@@ -1,0 +1,461 @@
+{
+    "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+    "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1153",
+    "id": "1153",
+    "label": "CAT 5e 100FT RJ45",
+    "objectKey": "JSMROV-1153",
+    "avatar": {
+        "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+        "url16": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=16",
+        "url48": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=48",
+        "url72": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=72",
+        "url144": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=144",
+        "url288": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=288",
+        "objectId": "1153",
+        "mediaClientConfig": {
+            "clientId": "41a2cceb-602b-4ecd-a80f-c451a2dea860",
+            "issuer": "micros-group/jsm-cmdb",
+            "mediaBaseUrl": "https://api.media.atlassian.com",
+            "mediaJwtToken": "eyJraWQiOiJtaWNyb3MtZ3JvdXAvanNtLWNtZGIvcjk5aWpmMnNvcGFkbGs3cCIsImFsZyI6IlJTMjU2In0.eyJhdWQiOiJtZWRpYSIsImNsaWVudElkIjoiNDFhMmNjZWItNjAyYi00ZWNkLWE4MGYtYzQ1MWEyZGVhODYwIiwiYWNjZXNzIjp7InVybjpmaWxlc3RvcmU6ZmlsZTpkYTQ5OTM0Ni0zMDlmLTRhMjAtOGI4Mi0yZTNkNzVlZDI5NDEiOlsicmVhZCJdfSwibmJmIjoxNzQxMjg4MDY1LCJpc3MiOiJtaWNyb3MtZ3JvdXAvanNtLWNtZGIiLCJleHAiOjE3NDEyOTE2NjUsImlhdCI6MTc0MTI4ODA2NSwianRpIjoiMGJhODFmZDktMTA1ZS00N2UzLTg1YmEtNWNlNzk1N2NiODM1In0.qFH3lxCGL6asIOPmpI246b8Ux-nOkEVerZJYQeYtU17t2UM00MWPBx5B_BV6PS37nvs2X3F0gEtIWwCXTne08zJkAwI0VbW0pPWZdhtj871NTpPmshu1dmbD2HsEJ7_eggHKSlarqqy9jSCxO9k8KcnYq6wXNNQPQyEJMRXbwVNpox2u5yWqqogficOYcc0DU6EcZMYulpbpsdVupjbKfpH3OGPO63_qkUnF-qOtYFm80BKAMtpa3wJCeKahPeWLtky213oZTwE441kSklWYnpCCiDzEpWBIGeQyCbiupdRHfqbbFhJSOlPneBRTQWOBMhXWTgoG3_Rkc2Xrfg7pCQ",
+            "fileId": "da499346-309f-4a20-8b82-2e3d75ed2941",
+            "tokenLifespanInMinutes": 60
+        }
+    },
+    "objectType": {
+        "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+        "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:131",
+        "id": "131",
+        "name": "Network Assets",
+        "type": 0,
+        "description": "Import type from CSV file",
+        "icon": {
+            "id": "41",
+            "name": "Document",
+            "url16": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=16",
+            "url48": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/objecttype/131/icon.png?size=48"
+        },
+        "position": 7,
+        "created": "2025-03-05T11:10:18.769Z",
+        "updated": "2025-03-05T11:11:15.181Z",
+        "objectCount": 0,
+        "objectSchemaId": "11",
+        "inherited": false,
+        "abstractObjectType": false,
+        "parentObjectTypeInherited": false
+    },
+    "created": "2025-03-05T11:10:26.297Z",
+    "updated": "2025-03-05T11:10:26.297Z",
+    "hasAvatar": false,
+    "timestamp": 1741173026297,
+    "attributes": [
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12282",
+            "id": "12282",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1083",
+                "id": "1083",
+                "name": "Key",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": false,
+                "system": true,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 1,
+                "maximumCardinality": 1,
+                "removable": false,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 0
+            },
+            "objectTypeAttributeId": "1083",
+            "objectAttributeValues": [
+                {
+                    "value": "JSMROV-1153",
+                    "searchValue": "JSMROV-1153",
+                    "referencedType": false,
+                    "displayValue": "JSMROV-1153"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12274",
+            "id": "12274",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1084",
+                "id": "1084",
+                "name": "Name",
+                "label": true,
+                "type": 0,
+                "description": "The name of the object",
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 1,
+                "maximumCardinality": 1,
+                "removable": false,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 1
+            },
+            "objectTypeAttributeId": "1084",
+            "objectAttributeValues": [
+                {
+                    "value": "CAT 5e 100FT RJ45",
+                    "searchValue": "CAT 5e 100FT RJ45",
+                    "referencedType": false,
+                    "displayValue": "CAT 5e 100FT RJ45"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12276",
+            "id": "12276",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1090",
+                "id": "1090",
+                "name": "Type",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 7
+            },
+            "objectTypeAttributeId": "1090",
+            "objectAttributeValues": [
+                {
+                    "value": "Network Cable",
+                    "searchValue": "Network Cable",
+                    "referencedType": false,
+                    "displayValue": "Network Cable"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12272",
+            "id": "12272",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1085",
+                "id": "1085",
+                "name": "Created",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 6,
+                    "name": "DateTime"
+                },
+                "editable": false,
+                "system": true,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 1,
+                "maximumCardinality": 1,
+                "removable": false,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 2
+            },
+            "objectTypeAttributeId": "1085",
+            "objectAttributeValues": [
+                {
+                    "value": "2025-03-05T11:10:26.295Z",
+                    "searchValue": "2025-03-05T11:10:26.295Z",
+                    "referencedType": false,
+                    "displayValue": "05/Mar/25 11:10 AM"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12277",
+            "id": "12277",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1114",
+                "id": "1114",
+                "name": "Description",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 31
+            },
+            "objectTypeAttributeId": "1114",
+            "objectAttributeValues": [
+                {
+                    "value": "CAT 5e 100FT RJ45",
+                    "searchValue": "CAT 5e 100FT RJ45",
+                    "referencedType": false,
+                    "displayValue": "CAT 5e 100FT RJ45"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12278",
+            "id": "12278",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1115",
+                "id": "1115",
+                "name": "RestockThreshold",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 32
+            },
+            "objectTypeAttributeId": "1115",
+            "objectAttributeValues": [
+                {
+                    "value": "10",
+                    "searchValue": "10",
+                    "referencedType": false,
+                    "displayValue": "10"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12279",
+            "id": "12279",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1116",
+                "id": "1116",
+                "name": "InStock",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 33
+            },
+            "objectTypeAttributeId": "1116",
+            "objectAttributeValues": [
+                {
+                    "value": "15",
+                    "searchValue": "15",
+                    "referencedType": false,
+                    "displayValue": "15"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12280",
+            "id": "12280",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1117",
+                "id": "1117",
+                "name": "Location",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 34
+            },
+            "objectTypeAttributeId": "1117",
+            "objectAttributeValues": [
+                {
+                    "value": "Stockroom-AMS",
+                    "searchValue": "Stockroom-AMS",
+                    "referencedType": false,
+                    "displayValue": "Stockroom-AMS"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12273",
+            "id": "12273",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1086",
+                "id": "1086",
+                "name": "Updated",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 6,
+                    "name": "DateTime"
+                },
+                "editable": false,
+                "system": true,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 1,
+                "maximumCardinality": 1,
+                "removable": false,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 3
+            },
+            "objectTypeAttributeId": "1086",
+            "objectAttributeValues": [
+                {
+                    "value": "2025-03-05T11:10:26.295Z",
+                    "searchValue": "2025-03-05T11:10:26.295Z",
+                    "referencedType": false,
+                    "displayValue": "05/Mar/25 11:10 AM"
+                }
+            ],
+            "objectId": "1153"
+        },
+        {
+            "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+            "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:12275",
+            "id": "12275",
+            "objectTypeAttribute": {
+                "workspaceId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f",
+                "globalId": "9639f74b-a7d7-4189-9acb-9a493cbfe46f:1087",
+                "id": "1087",
+                "name": "Cost",
+                "label": false,
+                "type": 0,
+                "defaultType": {
+                    "id": 0,
+                    "name": "Text"
+                },
+                "editable": true,
+                "system": false,
+                "sortable": true,
+                "summable": false,
+                "indexed": true,
+                "minimumCardinality": 0,
+                "maximumCardinality": 1,
+                "removable": true,
+                "hidden": false,
+                "includeChildObjectTypes": false,
+                "uniqueAttribute": false,
+                "options": "",
+                "position": 4
+            },
+            "objectTypeAttributeId": "1087",
+            "objectAttributeValues": [
+                {
+                    "value": "12.95",
+                    "searchValue": "12.95",
+                    "referencedType": false,
+                    "displayValue": "12.95"
+                }
+            ],
+            "objectId": "1153"
+        }
+    ],
+    "extendedInfo": {
+        "openIssuesExists": false,
+        "attachmentsExists": false
+    },
+    "_links": {
+        "self": "https://api.atlassian.com/jsm/insight/workspace/9639f74b-a7d7-4189-9acb-9a493cbfe46f/v1/object/1153"
+    },
+    "name": "CAT 5e 100FT RJ45"
+}
