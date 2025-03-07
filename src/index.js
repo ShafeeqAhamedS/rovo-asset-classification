@@ -12,7 +12,7 @@ const buildOutput = (body, rnd) => ({
   });
   
   const EMAIL = "jeeva.abishake@cprime.com";
-  const API_TOKEN = "------"
+  const API_TOKEN = "---"
   const WORKSPACE_ID = "9639f74b-a7d7-4189-9acb-9a493cbfe46f";
   const authHeader = Buffer.from(`${EMAIL}:${API_TOKEN}`).toString('base64');
   const BASE_URL = `https://api.atlassian.com/jsm/assets/workspace/${WORKSPACE_ID}/v1`;
@@ -395,3 +395,68 @@ const buildOutput = (body, rnd) => ({
     const result = buildOutput(Math.random());
     return result;
   };
+
+  exports.KnowledgeBaseWebhook = async (request, context) => {
+    const objectSchemaId = 11;
+
+    try {
+        // Step 1: Get all object types
+        const objectTypes = await getAllObjects(objectSchemaId);
+
+        // Step 2: Fetch assets for each object type
+        const allAssets = [];
+        for (const objectType of objectTypes) {
+            const objectTypeId = objectType.id;
+            const attributes = await fetchAttributes(objectTypeId);
+            const attributeMap = Object.fromEntries(attributes.map(attr => [attr.id, attr.name]));
+
+            const url = `${BASE_URL}/object/aql?startAt=0&maxResults=5&includeAttributes=true`;
+            const payload = { qlQuery: `objectType = "${objectType.name}"` };
+
+            try {
+                const response = await fetch(url, {
+                    method: "POST",
+                    headers: HEADERS,
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                const data = await response.json();
+                const assets = data.values || [];
+
+                const formattedAssets = assets.map(asset => {
+                    let attributeData = {};
+                    asset.attributes.forEach(attr => {
+                        const name = attributeMap[attr.objectTypeAttributeId];
+                        if (name && attr.objectAttributeValues?.[0]?.value) {
+                            attributeData[name] = attr.objectAttributeValues[0].value;
+                        }
+                    });
+
+                    // Get all attribute names and sort them alphabetically
+                    const sortedAttributeNames = Object.keys(attributeData).sort();
+
+                    // Create a new object with properties in alphabetical order
+                    const sortedResult = {};
+                    sortedAttributeNames.forEach(name => {
+                        // Skip the fields we want to exclude
+                        if (name !== 'objectKey' && name !== 'Key' && name !== 'id') {
+                            sortedResult[name] = attributeData[name];
+                        }
+                    });
+
+                    return sortedResult;
+                });
+
+                allAssets.push(...formattedAssets);
+            } catch (error) {
+                console.error(`Error fetching assets for object type ${objectType.name}:`, error.message);
+            }
+        }
+
+        return buildOutput(allAssets, Math.random());
+    } catch (error) {
+        console.error("Error in KnowledgeBaseWebhook:", error.message);
+        return buildOutput(null, Math.random());
+    }
+};

@@ -6,6 +6,8 @@ modules:
       function: async
     - key: create-assets
       function: createAssets    
+    - key: knowledgebase-webhook-webtrigger
+      function: KnowledgeBaseWebhook
   function:
     - key: sync
       handler: index.runSync
@@ -13,6 +15,8 @@ modules:
       handler: index.runAsync
     - key: createAssets
       handler: index.createAssets
+    - key: KnowledgeBaseWebhook
+      handler: index.KnowledgeBaseWebhook
 
 permissions:
   external:
